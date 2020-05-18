@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ab-tester
+Version: 0.0.2
+Summary: A package with statistical and analytic functions and classes for A/B testing
+Home-page: UNKNOWN
+Author: Vitaly Cheremisinov, Vladislav Kozlov
+Author-email: vlad.kozlov.ds@gmail.com
+License: UNKNOWN
+Description: # A/B Tester
+        
+        The libarry includes some useful functions and classes for A/B testing.
+        
+        ## Modules
+        
+        * bootstrap - includes classes with different simulators implementations and utility functions for analyzing simulation 
+        results
+        * proportions - includes functions for testing proportions as there is no out-of-the-box implementations in other 
+        libraries as far as we know
+        * cuped - simple implementation of CUPED
+        * sample_analysis - utility functions for analyzing test and control samples and performing a factor analysis to find 
+         out the reason of difference between test and control
+        * plotting - utility functions for plotting simulation results or test power vs sample size
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
